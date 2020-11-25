@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "mgalite-digital-factory-demo-tfstate"
     prefix = "env/prod"
   }
 }
